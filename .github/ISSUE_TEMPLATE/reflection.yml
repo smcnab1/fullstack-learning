@@ -1,0 +1,21 @@
+name: Weekly Reflection
+description: Summarise your learning and blockers for the week
+labels: [type:reflection]
+body:
+  - type: input
+    id: week
+    attributes:
+      label: Week
+      placeholder: Week 1, 2, etc.
+  - type: textarea
+    id: learned
+    attributes:
+      label: ✅ What did you learn this week?
+  - type: textarea
+    id: struggled
+    attributes:
+      label: 🧱 What did you struggle with?
+  - type: textarea
+    id: next
+    attributes:
+      label: 🔜 What’s next?
