@@ -1,0 +1,18 @@
+name: Question / Confusion
+description: Log a concept you're struggling with
+labels: [type:question, status:blocked]
+body:
+  - type: input
+    id: question
+    attributes:
+      label: What’s confusing?
+      placeholder: e.g. How does closure scope persist?
+  - type: textarea
+    id: context
+    attributes:
+      label: Describe the context or where you got stuck
+  - type: textarea
+    id: next-steps
+    attributes:
+      label: What will you do next?
+      placeholder: Try again? Ask someone? Look for examples?
