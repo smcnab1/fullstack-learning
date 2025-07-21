@@ -1,0 +1,32 @@
+name: Learning Topic
+description: Track your progress on a learning concept or skill
+labels: [type:learning, status:todo]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      placeholder: e.g. JavaScript Promises
+  - type: textarea
+    id: goals
+    attributes:
+      label: Learning Objectives
+      placeholder: |
+        - Understand how promises work
+        - Practice with async/await
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      placeholder: |
+        - [ ] Watch tutorial
+        - [ ] Read documentation
+        - [ ] Complete example
+  - type: dropdown
+    id: level
+    attributes:
+      label: Difficulty
+      options:
+        - level:beginner
+        - level:intermediate
+        - level:advanced
