@@ -1,0 +1,28 @@
+name: Mini Project
+description: Plan and track a project
+labels: [type:project, status:todo]
+body:
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+      placeholder: e.g. Weather App
+  - type: textarea
+    id: goals
+    attributes:
+      label: Project Goals
+      placeholder: |
+        - Use Fetch API
+        - Show weather data
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Task List
+      placeholder: |
+        - [ ] Setup HTML/CSS
+        - [ ] Fetch weather from OpenWeather API
+  - type: textarea
+    id: stack
+    attributes:
+      label: Tools/Tech Used
+      placeholder: e.g. HTML, JS, Fetch, Bootstrap

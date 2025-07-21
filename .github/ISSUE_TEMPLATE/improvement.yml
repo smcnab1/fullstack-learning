@@ -1,0 +1,22 @@
+name: Improvement / Refactor
+description: Suggest or log a planned improvement
+labels: [type:improvement]
+body:
+  - type: input
+    id: area
+    attributes:
+      label: What needs improving?
+      placeholder: e.g. Update README structure
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      placeholder: Why or how it could be improved?
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High

@@ -1,0 +1,22 @@
+name: Bug Report
+description: Track a bug or error in code
+labels: [type:bug, status:blocked]
+body:
+  - type: input
+    id: bug
+    attributes:
+      label: Short Description
+      placeholder: e.g. Todo items not saving to localStorage
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: List what you did to cause the issue
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behaviour / Error Message

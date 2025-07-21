@@ -1,0 +1,14 @@
+name: Feature / Repo Idea
+description: Brainstorm ideas for repo improvement
+labels: [meta:ideas]
+body:
+  - type: input
+    id: idea
+    attributes:
+      label: Idea Title
+      placeholder: e.g. Add GitHub Action to auto-close completed issues
+  - type: textarea
+    id: details
+    attributes:
+      label: Notes
+      placeholder: How it could work or benefit learning
