@@ -1,0 +1,14 @@
+name: Resource to Review
+description: Track an article, video, or doc you want to review
+labels: [type:resource, status:todo]
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Link
+      placeholder: https://...
+  - type: textarea
+    id: notes
+    attributes:
+      label: Why save this?
+      placeholder: e.g. Looks like a good deep dive into React Router
