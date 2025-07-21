@@ -1,0 +1,169 @@
+# ===========================
+# 🔖 Topic Labels
+# ===========================
+
+topic:html:
+  - '*contains:html'
+  - '01-NOTES/HTML.md'
+  - '**/*.html'
+
+topic:css:
+  - '*contains:css'
+  - '01-NOTES/CSS.md'
+  - '**/*.css'
+
+topic:js:
+  - '*contains:javascript'
+  - '*contains:js'
+  - '**/*.js'
+  - '01-NOTES/JavaScript/**'
+
+topic:dom:
+  - '*contains:dom'
+  - '*contains:eventlistener'
+  - '*contains:document.querySelector'
+
+topic:fetch:
+  - '*contains:fetch'
+  - '*contains:api'
+  - '*contains:async'
+  - '**/fetch*/**'
+
+topic:terminal:
+  - '*contains:terminal'
+  - '*contains:cli'
+  - '*contains:shell'
+  - '**/*.sh'
+
+topic:node:
+  - '*contains:node.js'
+  - '*contains:express'
+  - '**/*.mjs'
+  - '01-NOTES/NodeJS/**'
+
+topic:db:
+  - '*contains:mongodb'
+  - '*contains:mongoose'
+  - '*contains:sql'
+  - '**/*.db'
+  - '**/*.sql'
+
+topic:react:
+  - '*contains:react'
+  - '**/*.jsx'
+  - '**/*.tsx'
+  - '01-NOTES/ReactJS/**'
+
+topic:ts:
+  - '*contains:typescript'
+  - '**/*.ts'
+  - '**/*.tsx'
+
+topic:networking:
+  - '*contains:http'
+  - '*contains:dns'
+  - '*contains:request'
+
+topic:cloud:
+  - '*contains:vercel'
+  - '*contains:deploy'
+  - '*contains:ci/cd'
+
+topic:security:
+  - '*contains:xss'
+  - '*contains:csrf'
+  - '*contains:auth'
+  - '*contains:jwt'
+
+topic:ssr:
+  - '*contains:ssr'
+  - '*contains:next.js'
+  - '**/ssr*/**'
+
+# ===========================
+# 📋 Type Labels
+# ===========================
+
+type:learning:
+  - '*contains:learn'
+  - '*contains:study'
+  - '*contains:understand'
+
+type:exercise:
+  - '*contains:exercise'
+  - '*contains:practice'
+  - '*contains:challenge'
+
+type:project:
+  - '*contains:project'
+  - '*contains:build'
+  - '03-PROJECTS/**'
+
+type:reflection:
+  - '*contains:reflection'
+  - '05-REFLECTIONS/**'
+
+type:resource:
+  - '*contains:resource'
+  - '*contains:article'
+  - '*contains:read'
+
+type:bug:
+  - '*contains:bug'
+  - '*contains:error'
+  - '*contains:crash'
+  - '*contains:stacktrace'
+
+type:question:
+  - '*contains:question'
+  - '*contains:why'
+  - '*contains:how do'
+
+type:improvement:
+  - '*contains:refactor'
+  - '*contains:improve'
+  - '*contains:cleanup'
+
+# ===========================
+# 🎯 Level Labels
+# ===========================
+
+level:beginner:
+  - '*contains:beginner'
+  - '*contains:easy'
+
+level:intermediate:
+  - '*contains:intermediate'
+  - '*contains:moderate'
+
+level:advanced:
+  - '*contains:advanced'
+  - '*contains:hard'
+  - '*contains:complex'
+
+# ===========================
+# 🚦 Status Labels
+# ===========================
+
+status:todo:
+  - '*contains:todo'
+  - '*contains:to do'
+  - '*contains:plan to'
+
+status:in-progress:
+  - '*contains:in progress'
+  - '*contains:working on'
+
+status:done:
+  - '*contains:done'
+  - '*contains:complete'
+
+status:blocked:
+  - '*contains:blocked'
+  - '*contains:stuck'
+  - '*contains:can’t continue'
+
+status:revisit:
+  - '*contains:revisit'
+  - '*contains:review later'
+  - '*contains:try again'
