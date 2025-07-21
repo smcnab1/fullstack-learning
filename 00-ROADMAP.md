@@ -6,7 +6,7 @@ Below is the checklist of topics and sub-topics I'm covering. I’ll mark them a
 
 ## 🧱 Foundations
 
-- [ ] HTML Basics
+- 🔄 HTML Basics
 - [ ] CSS Fundamentals
 - [ ] CSS Flexbox & Grid
 - [ ] JavaScript Basics
